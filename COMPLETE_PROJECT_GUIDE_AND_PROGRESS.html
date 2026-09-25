@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Business Entity Resolution - Complete Master Guide</title>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.7;
+    color: #1f2328;
+    max-width: 980px;
+    margin: 30px auto;
+    padding: 0 20px;
+    background-color: #f6f8fa;
+  }
+  .container {
+    background: #ffffff;
+    border: 1px solid #d0d7de;
+    border-radius: 10px;
+    padding: 40px 50px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+  }
+  pre {
+    background-color: #f6f8fa;
+    border: 1px solid #d0d7de;
+    border-radius: 6px;
+    padding: 14px 18px;
+    overflow-x: auto;
+    font-size: 88%;
+  }
+  code {
+    font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+    background-color: rgba(175,184,193,0.2);
+    padding: 0.2em 0.4em;
+    border-radius: 4px;
+    font-size: 85%;
+  }
+  pre code {
+    background-color: transparent;
+    padding: 0;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+  }
+  table, th, td {
+    border: 1px solid #d0d7de;
+    padding: 10px 14px;
+  }
+  th {
+    background-color: #f6f8fa;
+    font-weight: 600;
+    text-align: left;
+  }
+  tr:nth-child(2n) {
+    background-color: #fcfcfc;
+  }
+  h1 {
+    color: #0969da;
+    border-bottom: 2px solid #d0d7de;
+    padding-bottom: 0.3em;
+  }
+  h2 {
+    color: #1f2328;
+    border-bottom: 1px solid #d0d7de;
+    padding-bottom: 0.2em;
+    margin-top: 36px;
+  }
+  h3 {
+    color: #24292f;
+    margin-top: 24px;
+  }
+</style>
+</head>
+<body>
+<div class="container" id="content"></div>
+<script>
+  const md = $deepDoc;
+  document.getElementById('content').innerHTML = marked.parse(md);
+</script>
+</body>
+</html>
